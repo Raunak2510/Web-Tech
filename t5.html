@@ -1,39 +1,47 @@
-<html>
-    <head>
-        <title>Given Table</title>
-    </head>
-    <body>
-        <table border="black" cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Country</th>
-                    <th colspan="2">Politician</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="2">Turkmenistan</td>
-                    <td>President</td><td>Gurbanguly <br> Berdimuhamedow </td>
-                </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width: 100%;
+            height: 50px;
+            background-color:lightblue;
+           
+        }
+        div li:hover{
+     background-color: darkblue;
+        }
+        .ul, .ul1,.ul2,.ul3{
+            display:inline-block;
+        }
+        .ul2{
+        margin-left: 30px;
+        }
+        .ul3{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+  <ul class="ul">
+    <li class="ul1" >
+    <a href="https://www.codechef.com/learn">Codechef</a>
+</li>
+    <li class="ul2">
+    <a href="https://codeforces.com">Codeforce</a>
+</li>
+    <li class="ul3">
+        <a href="https://leetcode.com">Leetcode</a>
+       
+    </li>
 
-                <tr>
-                    <td>Voice President</td>
-                    <td>Raşit Meredow</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Eritrea</td>
-                    <td>President</td>
-                    <td>Isaias Afwerki</td>
-                </tr>
-                <tr>
-                    <td>Voice President</td>
-                    <td>None</td>
-
-                </tr>
-
-
-            </tbody>
-            
-        </table>
-    </body>
+   
+  </ul>
+    </div>
+</body>
 </html>
